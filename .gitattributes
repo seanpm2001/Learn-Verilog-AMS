@@ -32,6 +32,15 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
+# Verilog AMS source file
+# Defaulting to Verilog, as GitHub doesn't recognize the AMS variant
+*.v linguist-detectable=true
+*.v linguist-documentation=false
+*.v linguist-language=Verilog
+# Verilog Header source file
+*.vh linguist-detectable=true
+*.vh linguist-documentation=false
+*.vh linguist-language=Verilog
 # Less stylesheet file
 *.less linguist-detectable=true
 *.less linguist-documentation=false
@@ -164,7 +173,7 @@
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+# File type: gitattributes file (*.gitattributes)
+# File version: 5 (2022, Sunday, November 6th at 4:02 pm PST)
+# Line count (including blank lines and compiler line): 180
 # End of script
